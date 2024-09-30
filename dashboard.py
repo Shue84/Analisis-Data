@@ -8,12 +8,11 @@ Original file is located at
 
 conda create --name main-ds python=3.9
 conda activate main-ds
-pip install -r requirements.txt
 
 # Persiapan
 """
 
-!pip install streamlit
+pip install streamlit
 
 import pandas as pd
 import matplotlib.pyplot as plt
