@@ -280,3 +280,5 @@ plt.show()
 
 st.subheader('Gas Levels Over Time')
 st.pyplot(plt)
+
+streamlit run dashboard.py
