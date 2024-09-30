@@ -64,7 +64,7 @@ Ditemukan tidak adanya korelasi antara suhu dan rainfall
 
 ## Analisis Lanjutan
 ```
-Menggunakan Geo Dataframe (gdf), disajikan peta China dengan lokasi Gucheng dan Huairou serta heatmap korelasi antara suhu dan rainfall
+Menggunakan Geopandas (gpd), disajikan peta China dengan lokasi Gucheng dan Huairou serta heatmap korelasi antara suhu dan rainfall
 ```
 
 ## Kegunaan
