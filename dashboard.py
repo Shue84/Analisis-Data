@@ -8,7 +8,7 @@ Original file is located at
 
 # Persiapan
 """
-pip install matplotlib
+install matplotlib
 
 import pandas as pd
 import matplotlib.pyplot as plt
