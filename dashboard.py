@@ -280,5 +280,3 @@ plt.show()
 
 st.subheader('Gas Levels Over Time')
 st.pyplot(plt)
-
-pip freeze > requirements.txt
