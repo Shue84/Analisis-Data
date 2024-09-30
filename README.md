@@ -7,6 +7,20 @@ Dalam proyek ini, analisis yang dilakukan adalah terhadap kualitas udara (Air Qu
 Faktor yang dilihat adalah temperature, rainfall, partikel PM2.5, partikel PM10, konsentrasi gas CO, SO2 dan NO2
 ```
 
+## Pertanyaan Bisnis
+```
+- Bagaimana melihat pola kualitas udara dalam 1 tahun di 2 tempat?
+- Bagaimana hubungan antara curah hujan dengan konsentrasi gas SO2 dan NO2 di beberapa tempat?
+```
+
+## Setup Environment - Library
+```
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+```
+
 ## Setup Environment - Anaconda
 ```
 conda create --name main-ds python=3.9
@@ -23,7 +37,7 @@ pipenv shell
 pip install -r requirements.txt
 ```
 
-## Run steamlit app
+## Run streamlit app
 ```
 streamlit run dashboard.py
 ```
